@@ -1,0 +1,7 @@
+.vscode
+*.png
+*.dot
+*.json
+*.pyc
+*.swp
+__pycache__

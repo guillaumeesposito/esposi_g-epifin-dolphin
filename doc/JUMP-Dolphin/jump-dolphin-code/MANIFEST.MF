@@ -1,0 +1,2 @@
+Main-Class: Evaluation
+Class-Path: C:\JUMP\epita_dolphin.jar

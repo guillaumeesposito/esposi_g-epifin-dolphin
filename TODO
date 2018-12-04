@@ -1,0 +1,19 @@
+Actions:
+  - calculer le rendement depuis la date a aujourd'hui (current date)
+  - calculer le sharp du portefeuille
+  - selection uniquement d'action rentable depuis le 02/01/2012
+
+Arbre:
+  - Construire l'arbre avec des actions selectionnees
+  - Elagage des doublons avec une technique de hash
+  - Elagage des branches non prometteuse -> calcul du SHARP pendant la construction ?
+  - choix d'un pas d'iteration pour les poids des quantites a acheter de chauqe asset
+
+  1er technique :
+    - solution naive, on prend betement toutes les actions selectionnees
+    - parcours du chemin en selectionnant le chemin avec le meilleur SHARP
+
+  2eme technique :
+    - calcul de la covariance des actions pour les classer par groupe et construction de l'arbre avec des groupes le moins covariant possible par couche (fiabilite de cette solution ?)
+    - parcours de l'arbre en selectionnant le chemin avec le meilleur rendement
+
